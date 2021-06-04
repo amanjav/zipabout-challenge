@@ -36,7 +36,7 @@ const Confirmation = (props: any) => {
                     <Grid item sm={8}>
                         <p>{props.location.state.originValue.name} [{props.location.state.originValue.code}]</p>
                         <div className="timeline hidden"></div>
-                        <p>{props.location.state.originValue.name} [{props.location.state.originValue.code}]</p>
+                        <p>{props.location.state.destinationValue.name} [{props.location.state.destinationValue.code}]</p>
                     </Grid>
                 </Grid>
             </div>
