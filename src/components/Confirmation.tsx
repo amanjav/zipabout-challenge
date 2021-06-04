@@ -28,12 +28,12 @@ const Confirmation = (props: any) => {
                 <p>Thank you for planning your journey between:</p>
 
                 <Grid container className="journey-info">
-                    <Grid item sm={4}>
+                    <Grid item sm={2}>
                         <p><TrainIcon /></p>
                         <div className="timeline"></div>
                         <p> <TrainIcon /></p>
                     </Grid>
-                    <Grid item sm={8}>
+                    <Grid item sm={10}>
                         <p>{props.location.state.originValue.name} [{props.location.state.originValue.code}]</p>
                         <div className="timeline hidden"></div>
                         <p>{props.location.state.destinationValue.name} [{props.location.state.destinationValue.code}]</p>
